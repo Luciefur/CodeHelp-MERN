@@ -1,0 +1,41 @@
+.card {
+  width: 250px;
+  margin: 20px;
+}
+
+img {
+  width: 250px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+h3 {
+    margin: 10px 0px 10px 0px;
+}
+
+hr {
+    margin-bottom: 15px;
+}
+
+span {
+    margin: 3px;
+}
+
+#new-price {
+    color: blueviolet;
+}
+
+#old-price {
+    color: grey;
+    text-decoration: line-through;
+}
+
+#discount {
+    color: white;
+    background-color: 
+    limegreen;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
