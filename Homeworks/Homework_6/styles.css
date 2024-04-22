@@ -1,0 +1,40 @@
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#box1 {
+    background-color: aqua;
+    position: absolute;
+}
+
+#box2 {
+    background-color: yellowgreen;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+#box3 {
+    background-color: lightcyan;
+    position: absolute;
+    bottom: 8px;
+}
+
+#box4 {
+    background-color: pink;
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+}
+
+#box5 {
+    background-color: peachpuff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px;
+        
+}
