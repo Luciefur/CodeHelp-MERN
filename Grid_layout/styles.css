@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: grid;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.video-incoming {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+
+.video-outgoing {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.chat-window {
+    position: relative;
+    min-height: 8em;
+}
+
+.about {
+    grid-column: 1 / span 3;
+    grid-row: 3;
+    min-height: 5em;
+}
+
+.wrapper .video-incoming img,
+.wrapper .video-outgoing img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.chat-window input {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    width: 60%;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 5px;
+}
+
