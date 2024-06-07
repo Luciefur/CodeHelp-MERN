@@ -5,13 +5,13 @@
 }
 
 body {
-    background-image: url(./assets/background.jpg);
+    /* background-image: url(./assets/background.jpg);
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     /* backdrop-filter: blur(10px); */
-    /* background-color: rgba(0, 0, 0, 0.8); */
     /* opacity: 0.5; */
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .wrapper {
@@ -89,12 +89,13 @@ body {
 #send-button {
     background-color: #04AA6D;
     color: white;
-    font-size: .44em;
+    font-size: 1vw;
     left: 68%;
-    width: 15%;
+    width: 5vw;
+    height: 3.8vh;
     border: 1px solid #333;
     border-radius: 5px;
-    padding: 5px;
+    padding: .15vh .2vw;
 }
 
 #send-button:hover {
@@ -105,12 +106,13 @@ body {
 #next-button {
     background-color: #04AA6D;
     color: white;
-    font-size: .44em;
+    font-size: 1vw;
     left: 84%;
-    width: 15%;
+    width: 5vw;
+    height: 3.8vh;
     border: 1px solid #333;
     border-radius: 5px;
-    padding: 5px;
+    padding: .15vh .2vw;
 }
 
 #next-button:hover {
